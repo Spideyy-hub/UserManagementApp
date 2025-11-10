@@ -1,0 +1,17 @@
+﻿# User Management App (.NET MVC)
+
+## Features
+- SQL Server connected via Entity Framework Core
+- Full CRUD operations (Create, Read, Update, Delete)
+- Validation for user input
+- Middleware for logging and authentication
+- Copilot-assisted debugging
+- Responsive UI with Bootstrap
+
+## Setup
+1. Update `appsettings.json` with your SQL Server name.
+2. Run:
+   ```bash
+   dotnet ef migrations add InitialCreate
+   dotnet ef database update
+   dotnet run
